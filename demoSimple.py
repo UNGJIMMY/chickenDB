@@ -2,8 +2,8 @@ import pymysql
 
 def db_connect():
     conn = pymysql.connect(
-        host='',
-        user='',
+        host='localhost',
+        user='guest',
         password='',
         database='chicken',
         charset='utf8mb4'
