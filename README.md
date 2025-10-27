@@ -2,7 +2,7 @@
 <br>
 
 __Content:__ OTT(refered to as ERD)<br>
-__else<br>__
+__note__ <br>
 1. chicken(db 이름과 content는 관련이 없습니다..)
 2. fake data입니다.<br>
 3. ERD
