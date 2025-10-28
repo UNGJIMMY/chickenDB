@@ -10,5 +10,6 @@ __DB Content Detail__ <br>
 __note__ <br>
 1. chicken(db 이름)과 DB Content는 관련 x
 2. fake data
-3. ERD
+3. zip 파일은 다운로드 편의를 위해서 전체 파일을 압축한 파일입니다.
+4. ERD
 <img width="972" height="514" alt="Screenshot 2025-10-27 at 23 40 50" src="https://github.com/user-attachments/assets/675f42c0-54fa-445c-bb1e-ac3228b03f8b" />
