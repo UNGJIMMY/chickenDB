@@ -20,21 +20,6 @@ class DBUtil:
             print(type(e))
         finally:
             conn.close()
-    def execute(self, sql, params):
-        conn = pymysql.connect(host='localhost', user='guest', password='', db='chicken', charset='utf8')
-
-        try:
-            with conn.cursor() as cursor:
-                cursor.execute(sql, params)
-            conn.commit()
-        except pymysql.MySQLError as e:
-            print(e)
-            print(type(e))
-        except Exception as e:
-            print(e)
-            print(type(e))
-        finally:
-            conn.close()
 
 class DBQuery:
     def selectUniqueListForContent(self, column):
