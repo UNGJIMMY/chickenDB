@@ -9,7 +9,6 @@ __Detail__ <br>
 
 __note__ <br>
 
-0. certifications.zip: 자격증 파일
 1. chicken(db 이름)과 DB Content는 관련 x
 2. fake data
 3. zip 파일은 전체 파일을 압축한 파일입니다.
