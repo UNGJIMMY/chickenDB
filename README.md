@@ -8,6 +8,7 @@ __Detail__ <br>
 3. scenarioSQL: 가상 시나리오에 따른 SQL prompt <br>
 
 __note__ <br>
+
 0. certifications.zip: 자격증 파일
 1. chicken(db 이름)과 DB Content는 관련 x
 2. fake data
