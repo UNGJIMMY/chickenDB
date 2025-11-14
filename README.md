@@ -8,7 +8,7 @@ __Detail__ <br>
 3. scenarioSQL: 가상 시나리오에 따른 SQL prompt <br>
 
 __note__ <br>
-__0.__ certifications.zip: 자격증 파일
+0. certifications.zip: 자격증 파일
 1. chicken(db 이름)과 DB Content는 관련 x
 2. fake data
 3. zip 파일은 전체 파일을 압축한 파일입니다.
