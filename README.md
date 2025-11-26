@@ -9,7 +9,7 @@ __Detail__ <br>
 
 __note__ <br>
 
-1. fake data
+1. fake(virtual) data
 2. zip 파일은 전체 파일을 압축한 파일입니다.
 3. ERD
 <img width="972" height="514" alt="Screenshot 2025-10-27 at 23 40 50" src="https://github.com/user-attachments/assets/675f42c0-54fa-445c-bb1e-ac3228b03f8b" />
