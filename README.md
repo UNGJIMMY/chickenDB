@@ -1,11 +1,11 @@
 # Project: OTT DB archicture and demo programs
 
 
-1_schema.sql: DB Schema<br>
-2_erd.pdf: DB ERD (Chen Diagram, IE Diagram)<br>
-3_scenarioSQL.pdf: SQL statement for virtual scenarios<br>
-4_demoSimple.py: DML program in Python memory<br>
-5_demoPyQT: Data pipeline program to handle data formats(CSV, JSON, XML) in PyQT GUI environment.<br>
+*1_schema.sql*: DB Schema<br>
+*2_erd.pdf*: DB ERD (Chen Diagram, IE Diagram)<br>
+*3_scenarioSQL.pdf*: SQL statement for virtual scenarios<br>
+*4_demoSimple.py*: DML program in Python memory<br>
+*5_demoPyQT.py*: Data pipeline program to handle data formats(CSV, JSON, XML) in PyQT GUI environment.<br>
 
 
 * background image: IE Diagram
