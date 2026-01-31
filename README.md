@@ -1,11 +1,13 @@
-# Project: OTT DB archicture and demo programs
+# Project: chicken(OTT)DB archicture and demo programs
 
-
+**chickenDB(OTT) (폴더)**<br>
 **1_schema.sql**: DB Schema<br>
 **2_erd.pdf**: DB ERD (Chen Diagram, IE Diagram)<br>
 **3_scenarioSQL.pdf**: SQL statements for virtual scenarios<br>
 **4_demoSimple.py**: DML program in Python memory<br>
 **5_demoPyQT.py**: Data pipeline program to handle data formats(CSV, JSON, XML) in PyQT GUI environment<br>
+
+**멀티캠퍼스_포트폴리오 (폴더)** - 위 project과는 별개의 프로젝트입니다.
 
 
 * background image: IE Diagram
