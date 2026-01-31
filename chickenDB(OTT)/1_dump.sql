@@ -1,15 +1,13 @@
-CREATE DATABASE  IF NOT EXISTS `chicken` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `chicken`;
--- MySQL dump 10.13  Distrib 8.0.41, for macos15 (arm64)
+-- MySQL dump 10.13  Distrib 9.4.0, for macos15 (arm64)
 --
 -- Host: localhost    Database: chicken
 -- ------------------------------------------------------
--- Server version	9.3.0
+-- Server version	9.4.0
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!50503 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -225,6 +223,48 @@ LOCK TABLES `member_engagement` WRITE;
 INSERT INTO `member_engagement` VALUES ('2023-09-01 14:23:00',112,1,1,3,1,1,2,'Eternal Flame','John Kim'),('2023-06-10 13:25:00',91,0,NULL,NULL,0,1,5,'Digital Horizon','Sarah Lee'),('2023-11-11 10:10:00',88,0,NULL,NULL,0,2,5,'Digital Horizon','Sarah Lee'),('2023-08-15 17:05:00',87,1,1,NULL,1,2,7,'The Forgotten Echo','Liam Park'),('2024-01-20 12:00:00',101,1,2,NULL,1,2,9,'Neon Skyline','David Han'),('2024-02-28 18:50:00',72,0,NULL,NULL,1,3,3,'Whispering Shadows','Emily Choi'),('2023-06-15 09:45:00',134,1,1,2,1,3,7,'The Forgotten Echo','Liam Park'),('2023-07-03 22:20:00',77,0,NULL,NULL,0,4,6,'Crystal Path','Olivia Jung'),('2023-09-12 15:20:00',75,1,1,2,1,4,9,'Neon Skyline','David Han'),('2024-01-25 16:00:00',97,0,NULL,NULL,1,5,6,'Crystal Path','Olivia Jung'),('2023-08-12 15:05:00',95,1,1,3,1,5,8,'Quantum Drift','James Yoo'),('2023-05-22 07:35:00',110,0,NULL,NULL,1,6,1,'Broken Synthesis','Ella Min'),('2023-12-11 11:45:00',130,1,2,1,1,6,8,'Quantum Drift','James Yoo'),('2023-07-27 10:10:00',78,0,NULL,NULL,0,7,1,'Broken Synthesis','Ella Min'),('2023-10-01 16:45:00',83,0,NULL,NULL,0,7,4,'Midnight Waves','Henry Shin'),('2024-03-03 11:15:00',99,1,1,2,1,8,2,'Blue Circuit','Chloe Ryu'),('2023-10-22 20:35:00',94,1,1,2,1,8,4,'Midnight Waves','Henry Shin'),('2023-11-09 18:15:00',104,1,1,3,0,9,2,'Blue Circuit','Chloe Ryu'),('2023-09-11 17:55:00',68,0,NULL,NULL,0,9,10,'Echo Valley','Nathan Seo'),('2023-11-21 20:20:00',105,0,NULL,NULL,1,10,5,'Shadow Dancer','Ava Kim'),('2023-08-06 08:55:00',85,0,NULL,NULL,0,10,10,'Echo Valley','Nathan Seo'),('2023-09-25 07:45:00',92,1,1,2,1,11,5,'Shadow Dancer','Ava Kim'),('2023-12-05 08:30:00',118,1,2,3,0,11,7,'Last Frequency','Josh Lim'),('2023-12-01 09:20:00',111,0,NULL,NULL,0,12,7,'Last Frequency','Josh Lim'),('2023-06-18 13:40:00',76,0,NULL,NULL,1,12,8,'Fractal Dream','Sophia Cho'),('2023-10-30 19:10:00',90,0,NULL,NULL,0,13,3,'Frozen Signal','Brian Lee'),('2023-11-18 10:40:00',423,1,4,3,1,13,8,'Fractal Dream','Sophia Cho'),('2024-03-05 08:00:00',116,0,NULL,NULL,1,14,3,'Frozen Signal','Brian Lee'),('2024-04-01 14:00:00',128,1,2,1,1,14,6,'Hidden Nova','Grace Park'),('2023-07-02 11:30:00',69,1,1,1,0,15,6,'Hidden Nova','Grace Park'),('2023-08-28 10:50:00',102,1,1,2,1,15,9,'Neural Wake','Jake Moon'),('2023-07-07 18:30:00',84,0,NULL,NULL,0,16,1,'Riftwalker','Eleanor Jang'),('2023-10-28 12:10:00',123,0,NULL,NULL,1,16,9,'Neural Wake','Jake Moon'),('2023-09-08 19:00:00',90,1,1,2,1,17,1,'Riftwalker','Eleanor Jang'),('2023-09-20 21:10:00',89,0,NULL,NULL,1,17,10,'Lumina Pulse','Ethan Baek'),('2023-06-25 12:25:00',115,1,1,2,1,18,4,'Timeless Glow','Irene Kwon'),('2023-06-30 16:25:00',82,1,1,3,1,18,10,'Lumina Pulse','Ethan Baek'),('2023-08-05 11:30:00',93,0,NULL,NULL,0,19,2,'Silent Theory','Leo Yoon'),('2023-08-17 14:05:00',108,0,NULL,NULL,0,19,4,'Timeless Glow','Irene Kwon'),('2023-11-29 17:55:00',117,0,NULL,NULL,0,20,2,'Silent Theory','Leo Yoon'),('2023-11-03 17:45:00',96,0,NULL,NULL,1,20,3,'Edge Protocol','Hailey Shim'),('2023-09-27 10:35:00',74,1,1,1,1,21,3,'Edge Protocol','Hailey Shim'),('2024-01-12 13:10:00',109,1,1,3,0,21,5,'Dark Parallax','Chris Oh'),('2023-07-22 09:15:00',86,1,1,2,1,22,5,'Dark Parallax','Chris Oh'),('2023-07-18 15:55:00',79,1,1,1,1,22,7,'Violet Reboot','Nicole Jung'),('2023-05-25 16:30:00',70,0,NULL,NULL,0,23,6,'Phantom Logic','Eric Hwang'),('2023-12-08 15:30:00',125,0,NULL,NULL,0,23,7,'Violet Reboot','Nicole Jung'),('2023-08-03 13:50:00',122,1,2,3,1,24,6,'Phantom Logic','Eric Hwang'),('2023-10-15 14:20:00',98,1,1,2,1,24,8,'Hypertrace','Lucas Noh'),('2023-10-18 20:25:00',112,0,NULL,NULL,1,25,8,'Hypertrace','Lucas Noh'),('2023-09-30 08:15:00',103,1,1,1,0,25,9,'Celestial Loop','Zoe Chae'),('2023-12-25 09:00:00',80,0,NULL,NULL,0,26,2,'Static Bloom','Mason Song'),('2023-09-05 18:45:00',81,1,1,2,1,26,9,'Celestial Loop','Zoe Chae'),('2023-07-14 14:30:00',99,0,NULL,NULL,0,27,2,'Static Bloom','Mason Song'),('2024-01-18 10:50:00',107,1,1,3,1,27,10,'Orbital Drift','Mia Lim'),('2023-07-09 11:35:00',73,0,NULL,NULL,0,28,1,'Nova Colony','Caleb Koo'),('2023-11-14 10:10:00',88,1,1,3,1,28,10,'Orbital Drift','Mia Lim'),('2024-01-08 08:45:00',89,0,NULL,NULL,1,29,1,'Nova Colony','Caleb Koo'),('2023-11-05 12:45:00',100,0,NULL,NULL,1,29,3,'Paradox Flame','Luna Jang'),('2024-02-01 14:40:00',106,1,1,2,1,30,2,'Eternal Flame','John Kim'),('2023-09-03 13:35:00',102,1,1,2,0,30,3,'Paradox Flame','Luna Jang');
 /*!40000 ALTER TABLE `member_engagement` ENABLE KEYS */;
 UNLOCK TABLES;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`guest`@`localhost`*/ /*!50003 TRIGGER `check_rating_insert` BEFORE INSERT ON `member_engagement` FOR EACH ROW BEGIN
+    -- 조건: 완료되지 않았는데(0) 점수(Rating)가 있는 경우
+    IF NEW.completed = 0 AND NEW.Rating IS NOT NULL THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = '오류: 완료되지 않은(completed=0) 항목에는 평점(Rating)을 매길 수 없습니다.';
+    END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`guest`@`localhost`*/ /*!50003 TRIGGER `check_rating_update` BEFORE UPDATE ON `member_engagement` FOR EACH ROW BEGIN
+    -- 조건: 완료되지 않았는데(0) 점수(Rating)가 있는 경우
+    IF NEW.completed = 0 AND NEW.Rating IS NOT NULL THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = '오류: 완료되지 않은(completed=0) 항목에는 평점(Rating)을 매길 수 없습니다.';
+    END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `original_content_producer`
@@ -285,4 +325,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-16 14:14:54
+-- Dump completed on 2026-01-29 23:21:14
