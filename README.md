@@ -10,4 +10,5 @@
 * background image: IE Diagram
  <img width="1109" height="585" alt="Screenshot 2026-01-24 at 03 29 07" src="https://github.com/user-attachments/assets/cadb3653-6b9d-4288-a650-3830be34bd8f" />
 <br>
-**데이터분석가과정 (폴더)** 위 chicken 프로젝트와는 별개입니다.
+
+* **데이터분석가과정 (폴더)**: 위 chicken 프로젝트와는 별개입니다.
