@@ -1,7 +1,7 @@
 # Project: OTT DB archicture and demo programs
 
 
-**1_schema.sql**: DB Schema<br>
+**1_dump.sql**: DB Schema<br>
 **2_erd.pdf**: DB ERD (Chen Diagram, IE Diagram)<br>
 **3_scenarioSQL.pdf**: SQL statements for virtual scenarios<br>
 **4_demoSimple.py**: DML program in Python memory<br>
