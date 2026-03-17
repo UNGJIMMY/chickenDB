@@ -1,4 +1,4 @@
-# Project: OTT DB archicture and demo programs
+# Project: OTT DB architecture and demo programs
 
 
 **1_dump.sql**: DB Schema<br>
